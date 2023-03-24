@@ -4,4 +4,7 @@ from gpt_index.indices.query.query_transform.base import ImageOutputQueryTransfo
 
 __all__ = [
     "ImageOutputQueryTransform",
+    "StepDecomposeQueryTransform",
+    "DecomposeQueryTransform",
+    "HyDEQueryTransform"
 ]
